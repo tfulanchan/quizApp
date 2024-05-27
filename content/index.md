@@ -1,4 +1,4 @@
-# [The First]{.px-1 .bg-blue-200 .rounded-lg}
+# [Quiz App]{.px-1 .bg-blue-200 .rounded-lg}
 
 This is the first quiz, it's on Javascript.
 
