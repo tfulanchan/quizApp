@@ -7,6 +7,7 @@ This is the first quiz, it's on Javascript.
 ::quiz
 ---
 question: "What is a callback function in JavaScript?"
+date: "23443223432"
 answers: [
   "A function passed into another function as an argument",
   "A function that calls back the operating system",

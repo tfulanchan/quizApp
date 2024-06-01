@@ -1,4 +1,4 @@
-# Quiz
+<!-- # Quiz -->
 
 This is the first quiz, it's on Javascript.
 
