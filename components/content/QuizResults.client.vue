@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-24">
+  <div class="pb-8">
     <div class="flex flex-row justify-between items-end">
       <h3 class="text-3xl font-bold quiz-header mb-4">Quiz Results</h3>
       <button
@@ -33,7 +33,7 @@ const props = defineProps({
 
 const id = 1;
 // const showResults = ref(false);
-import useQuiz from './useQuiz';
+import useQuiz from "./useQuiz";
 
 const { showResults, score } = useQuiz();
 const selected = ref(-1);

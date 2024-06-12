@@ -17,7 +17,9 @@
       @showMobileMenu="showMobileMenu = true"
       v-show="!showMobileMenu"
     />
-    <div class="h-screen flex container pt-24 pb-8">      <DesktopSidebar class="hidden md:flex" />
+    <div class="h-screen flex container pt-24 pb-8">
+      <!-- <DesktopSidebar class="hidden md:flex md:pt-24" /> -->
+      <DesktopSidebar class="hidden md:flex" />
       <div class="max-w-md mx-auto bg-white rounded-xl shadow-md md:max-w-2xl">
         <NuxtLayout>
           <NuxtPage />
@@ -26,7 +28,7 @@
     </div>
   </div>
 </template>
- 
+
 <script>
 export default {
   data() {

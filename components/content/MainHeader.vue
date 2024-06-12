@@ -2,7 +2,7 @@
   <div
     class="fixed flex flex-shrink-0 h-16 w-full max-w-6xl z-10 bg-white border-b-2 border-gray-100"
   >
-  <button class="md:hidden p-6" @click="showMobileMenu">
+    <button class="md:hidden p-6" @click="showMobileMenu">
       <svg
         class="h-6 w-6"
         xmlns="http://www.w3.org/2000/svg"
@@ -41,11 +41,11 @@
 import GlobeIcon from "./GlobeIcon.vue";
 
 export default {
-  componenets: {GlobeIcon},
+  componenets: { GlobeIcon },
   methods: {
-    showMobileMenu(){
-      this.$emit('showMobileMenu')
-    }
-  }
-}
+    showMobileMenu() {
+      this.$emit("showMobileMenu");
+    },
+  },
+};
 </script>
