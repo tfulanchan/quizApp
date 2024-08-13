@@ -33,7 +33,8 @@
         {{ answer }}
       </label>
     </div>
-  </div>  </NuxtLayout>
+  </div>
+  </NuxtLayout>
 </template>
 
 <script setup>
