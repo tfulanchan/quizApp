@@ -36,7 +36,7 @@ export default () => {
 
   const calculateScore = () => {
     const correct = state.questions.filter(
-      (question) => question.correctAnswerIndex === question.selected.value
+      (question) => question.correctAnswerIndex === question.selected
     ).length;
 
     state.score = {
