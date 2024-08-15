@@ -22,6 +22,7 @@
       <span class="text-3xl font-bold">
         {{ score.correct }}/{{ score.total }}
       </span>
+      <span class="text-3xl font-bold">{{ score.percentage }}</span>
     </div>
   </div>
 </template>
